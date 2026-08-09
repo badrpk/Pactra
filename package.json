@@ -1,0 +1,22 @@
+{
+  "name": "xerus-rider-partner",
+  "version": "21.2.0",
+  "description": "Xerus Rider Partner Driver Application for sastisawari.com and partner.xerus.biz",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "sophyane-web --host 0.0.0.0 --port 8888",
+    "start": "node src/index.js",
+    "build": "sophyane-release gate .",
+    "test": "sophyane-doctor"
+  },
+  "keywords": [
+    "ride-hailing-driver",
+    "captain-app",
+    "sastisawari-partner",
+    "xerus-partner",
+    "monero-payouts",
+    "dispatch-console"
+  ],
+  "author": "Badar Uzaman (badrpk@gmail.com)",
+  "license": "MIT"
+}
